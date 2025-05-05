@@ -1,8 +1,12 @@
 package oo.composicao;
 
 public class Carro {
-
-	Motor motor = new Motor();
+	Motor motor;
+	
+	//Carro cria um motor e passa o proprio carro pra ser parametro do motor
+	Carro() {
+		this.motor = new Motor(this);		
+	}
 	
 	void acelerar() {
 		if(motor.fatorDeInjecao < 2.6) {
