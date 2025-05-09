@@ -15,7 +15,7 @@ public class Teste {
 		System.out.println(h1);
 		System.out.println(uno);
 		
-		uno.velocidadeAtual = 4;
+		System.out.println(uno.velocidadeAtual);
 		
 		uno.frear();
 		uno.frear();

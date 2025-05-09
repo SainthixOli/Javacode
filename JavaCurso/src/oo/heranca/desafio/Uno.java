@@ -10,6 +10,9 @@ public class Uno extends Carro {
 		super(velocidadeMax);
 	}
 	
+	void visibilidade() {
+		System.out.println(velocidadeAtual);
+	}
 	
 	public void acelerar( ) {
 		super.acelerar();
